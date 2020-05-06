@@ -19,6 +19,11 @@ h1 {
   font-size: 4rem;
 }
 
+p {
+  max-width: 40em;
+  margin: 0 auto;
+}
+
 .demo {
   font-size: 3rem;
 }
@@ -46,4 +51,83 @@ h1 {
 }
 .roboto-extremo {
   font-family: "Roboto Extremo";
+}
+
+/* Axis demos */
+
+
+/* Weight */
+.weight {
+  font-family: "Literata";
+}
+.weight h1 {
+  font-weight: 850;
+}
+.weight p {
+  font-weight: 385;
+}
+
+/* Width */
+.width {
+  font-family: "Roboto Extremo";
+}
+.width h1 {
+  font-weight: 650;
+  font-stretch: 35%;
+}
+.width p {
+  font-weight: 385;
+  font-stretch: 100%;
+}
+
+/* Slant */
+.slant {
+  font-family: "Inter";
+}
+.slant h1 {
+  font-weight: 650;
+  font-variation-settings: 'slnt' -10;
+}
+.slant p {
+  font-weight: 385;
+  font-variation-settings: 'slnt' -3;
+}
+
+/* Italic */
+.italic {
+  font-family: "Literata";
+}
+.italic h1 {
+  font-weight: 850;
+  font-style: italic;
+}
+.italic p {
+  font-weight: 385;
+  font-style: italic;
+}
+
+/* Optical Size */
+.opsz {
+  font-family: "Literata";
+}
+.opsz h1 {
+  font-weight: 850;
+  font-variation-settings: 'opsz' 72;
+}
+.opsz p {
+  font-weight: 385;
+  font-optical-sizing: auto;
+}
+
+/* Custom Axes */
+.custom {
+  font-family: "Recursive";
+}
+.custom h1 {
+  font-weight: 300;
+  font-variation-settings: 'MONO' 1, 'CASL' 0, 'slnt' -8, 'ital' 0;
+}
+.custom p {
+  font-weight: 385;
+  font-variation-settings: 'MONO' 0, 'CASL' 0, 'slnt' 0, 'ital' 0;
 }
