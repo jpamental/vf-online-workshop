@@ -1,0 +1,49 @@
+html {
+  box-sizing: border-box; 
+}
+
+*, *:before, *:after {
+  box-sizing: inherit; 
+}
+
+body {
+  font-family: "Literata";
+}
+
+main {
+  max-width: 80vw;
+  margin: 2rem auto;
+}
+
+h1 {
+  font-size: 4rem;
+}
+
+.demo {
+  font-size: 3rem;
+}
+
+.literata-regular {
+  font-family: "Literata Regular";
+}
+
+.literata {
+  font-family: "Literata";
+}
+
+.amstelvar {
+  font-family: "Amstelvar";
+}
+
+.inter {
+  font-family: "Inter";
+}
+.jost {
+  font-family: "Jost";
+}
+.recursive {
+  font-family: "Recursive";
+}
+.roboto-extremo {
+  font-family: "Roboto Extremo";
+}

@@ -1,0 +1,116 @@
+/* Literata Static Fonts */
+
+/* Standard Regular, Italic, Bold, Bold Italic */
+
+@font-face {
+  font-family: 'Literata Regular';
+  font-style: normal;
+  font-weight: normal;
+  src: url('../fonts/literata/woff2/Literata-12ptRegular-subset.woff2') format('woff2'),
+       url('../fonts/literata/woff/Literata-12ptRegular-subset.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Literata Regular';
+  font-style: italic;
+  font-weight: normal;
+  src: url('../fonts/literata/woff2/Literata-12ptItalic-subset.woff2') format('woff2'),
+       url('../fonts/literata/woff/Literata-12ptItalic-subset.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Literata Regular';
+  font-style: normal;
+  font-weight: bold;
+  src: url('../fonts/literata/woff2/Literata-12ptBold-subset.woff2') format('woff2'),
+       url('../fonts/literata/woff/Literata-12ptBold-subset.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Literata Regular';
+  font-style: italic;
+  font-weight: bold;
+  src: url('../fonts/literata/woff2/Literata-12ptBoldItalic-subset.woff2') format('woff2'),
+       url('../fonts/literata/woff/Literata-12ptBoldItalic-subset.woff') format('woff');
+}
+
+/* Literata Variable */
+@font-face {
+  font-family: 'Literata';
+  font-style: normal;
+  font-weight: 200 900;
+  src: url('../fonts/Literata-Roman-VF-subset.woff2') format('woff2 supports variations'),
+       url('../fonts/Literata-Roman-VF-subset.woff2') format('woff2-variations');
+}
+
+@font-face {
+  font-family: 'Literata';
+  font-style: italic;
+  font-weight: 200 900;
+  src: url('../fonts/Literata-Italic-VF-subset.woff2') format('woff2 supports variations'),
+       url('../fonts/Literata-Italic-VF-subset.woff2') format('woff2-variations');
+}
+
+/* Amstelvar Variable */
+@font-face {
+  font-family: 'Amstelvar';
+  font-style: normal;
+  font-stretch: 50 125; /* default: 100 */
+  font-weight: 100 900; /* default: 400 */
+  src: url('../fonts/Amstelvar-Roman.woff2') format('woff2 supports variations'),
+       url('../fonts/Amstelvar-Roman.woff2') format('woff2-variations');
+  /* opsz: 8 144 / default: 14 */
+  /* GRAD: -1 1 / default: 0 */
+}
+
+@font-face {
+  font-family: 'Amstelvar';
+  font-style: italic;
+  font-stretch: 50 125; /* default: 100 */
+  font-weight: 100 900; /* default: 400 */
+  src: url('../fonts/Amstelvar-Italic.woff2') format('woff2 supports variations'),
+       url('../fonts/Amstelvar-Italic.woff2') format('woff2-variations');
+  /* opsz: 8 144 / default: 14 */
+  /* GRAD: -1 1 / default: 0 */
+}
+
+/* Inter Variable */
+@font-face {
+  font-family: 'Inter';
+  font-style: oblique 0deg 10deg;
+  font-weight: 100 900; /* default: 400 */
+  src: url('../fonts/Inter-V-subset.woff2') format('woff2 supports variations'),
+       url('../fonts/Inter-V-subset.woff2') format('woff2-variations');
+}
+
+/* Jost Variable */
+@font-face {
+  font-family: 'Jost';
+  font-weight: 100 900; /* default: 400 */
+  src: url('../fonts/jost-VF-subset.woff2') format('woff2 supports variations'),
+       url('../fonts/jost-VF-subset.woff2') format('woff2-variations');
+}
+
+/* Recursive */
+@font-face {
+  font-family: 'Recursive';
+  font-weight: 300 1000; /* default: 300 */
+  src: url('../fonts/Recursive_VF_1.043--subset_range_english_basic.woff2') format('woff2 supports variations'),
+       url('../fonts/Recursive_VF_1.043--subset_range_english_basic.woff2') format('woff2-variations');
+  /* slnt: 0 15 / default: 0 */
+  /* ital: 0 1 / default: 0 */
+  /* MONO: 0 1 / default: 0 */
+  /* CASL: 0 1 / default: 0 */
+}
+
+/* Roboto Extremo */
+@font-face {
+  font-family: 'Roboto Extremo';
+  font-style: oblique 0deg 10deg;
+  font-stretch: 25 151; /* default: 100 */
+  font-weight: 100 900; /* default: 400 */
+  src: url('../fonts/RobotoExtremo-VF-slnt-alpha.woff2') format('woff2 supports variations'),
+       url('../fonts/RobotoExtremo-VF-slnt-alpha.woff2') format('woff2-variations');
+  /* opsz: 8 144 / default: 14 */
+  /* GRAD: -1 1 / default: 0 */
+}
