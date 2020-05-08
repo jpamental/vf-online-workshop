@@ -61,7 +61,8 @@ p {
   font-family: "Literata";
 }
 .weight h1 {
-  font-weight: 850;
+  font-weight: 900;
+  font-optical-sizing: auto;
 }
 .weight p {
   font-weight: 385;
@@ -133,7 +134,27 @@ p {
 }
 
 /* Play */
+:root {
+  --text-color: #343434;
+  --background-color: #ffffff;
+}
 
 .play {
+  background-color: var(--background-color);
+  color: var(--text-color);
+}
+@media (prefers-color-scheme:dark) {
+  :root {
+    --text-color: #ffffff;
+    --background-color: #343434;
+  }
+  p {
+    font-weight: 375;
+    letter-spacing: 0.005em;
+  }
+}
 
+.play p {
+  border-left: solid 1px var(--text-color);
+  padding-left: 1rem;
 }
